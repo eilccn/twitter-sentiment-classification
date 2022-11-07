@@ -1,1 +1,2 @@
-# cs6120-group-project
+# Cyberbullying Text Classification
+Group 10
