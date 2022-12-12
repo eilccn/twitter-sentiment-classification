@@ -1,5 +1,5 @@
 # Cyberbullying Classification
-CS6120 Group 10: Pushyanth Damarapati, Sindhya Balasubramanian, Eileen Chang, Priyanka Padinam
+##### Sindhya Balasubramanian, Eileen Chang, Pushyanth Damarapati, and Priyanka Padinam
 ##### December 11, 2022
 
 ## Abstract
