@@ -1,5 +1,5 @@
 # Cyberbullying Classification
-##### Sindhya Balasubramanian, Eileen Chang, Pushyanth Damarapati, and Priyanka Padinam
+#### Contributors: Sindhya Balasubramanian, Eileen Chang, Pushyanth Damarapati, and Priyanka Padinam
 ##### December 11, 2022
 
 ## Abstract
