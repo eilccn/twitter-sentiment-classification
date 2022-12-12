@@ -1,12 +1,12 @@
-# Cyberbullying Text Classification
+# Cyberbullying Classification
 CS6120 Group 10: Pushyanth Damarapati, Sindhya Balasubramanian, Eileen Chang, Priyanka Padinam
+December 11, 2022
+
+## Abstract
+We implemented sentiment classification models for two separate tasks: binary and multi-class text classification of tweets posted to Twitter. The models were evaluated on Kaggle's Cyberbullying Classification dataset, which labels tweets according to 6 classes of cyberbullying. In binary text classification we label tweets as either "cyberbullying" or "not cyberbullying," while in multi- class text classification we label tweets as a specific subcategory of cyberbullying. The same four models–Naive Bayes, ANN, CNN, and RNN–were used for both classification tasks in order to draw comparisons. Binary classification performed highest with the ANN model with 0.91 accuracy, while multi-class classification performed highest with the CNN model with 0.87 accuracy. In future applications of our work, we aim to train the best performing models from our results with larger datasets or with similar datasets from other social media sites.
 
 ## Description
-The rise of social media and the recent couple of years of covid-19 lockdown has led to a concerning increase in cyberbullying cases. In 2020, UNICEF even issued a warning in response to the increased cyberbullying compounded by social distancing and increased screen-time. 
-
-Those who bully others on the internet have the convenience of being able to hide anonymously behind a screen, but the people who are bullied are likely to develop mental-health issues that persist even after the bullying has ceased. Due to social media’s ability to spread information quickly and anonymously, a single person can easily end up being targeted by a large number of people of various demographics. 
-
-We aim to create a model that will flag harmful tweets and, therefore, protect targets of cyberbullying.
+The rise of social media and the recent couple of years of covid-19 lockdown has led to a concerning increase in cyberbullying cases. In 2020, UNICEF even issued a warning in response to the increased cyberbullying compounded by social distancing and increased screen-time. Those who participate in cyberbullying have the convenience of being able to hide anonymously behind a screen, but the targets of bullying are likely to develop mental-health issues that persist even after the bullying has ceased. Due to social media’s ability to spread information quickly and anonymously, a single person can end up being targeted by a large number of people of various demographics on an extreme scale. We aim to create a model that will flag harmful tweets and, therefore, protect targets of cyberbullying.
 
 ## Dataset
-We will be using a kaggle dataset, Cyberbullying Classification, consisting of more than 47,000 tweets labeled according to 6 classes of cyberbullying: Age, Ethnicity, Gender, Religion, Other type of cyberbullying, and Not cyberbullying. Each row of the dataset will have a tweet and its class of cyberbullying. The dataset is meant to be used to create a multi-classification model to predict cyberbullying type, create a binary classification model to flag potentially harmful tweets, and examine words and patterns associated with each type of cyberbullying.
+Our dataset consists of more than 47,000 tweets labeled according to 6 classes of cyberbullying: Age, Ethnicity, Gender, Religion, Other type of cyberbullying, and Not cyberbullying. Each row of the dataset will have a tweet and its class of cyberbullying. The dataset is meant to be used to create a multi-classification model to predict cyberbullying type, create a binary classification model to flag potentially harmful tweets, and examine words and patterns associated with each type of cyberbullying.
