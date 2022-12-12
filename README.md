@@ -1,6 +1,6 @@
 # Cyberbullying Classification
 #### Contributors: Sindhya Balasubramanian, Eileen Chang, Pushyanth Damarapati, and Priyanka Padinam
-December 11, 2022
+#### December 11, 2022
 
 ## Abstract
 We implemented sentiment classification models for two separate tasks: binary and multi-class text classification of tweets posted to Twitter. The models were evaluated on the [Cyberbullying Classification](https://www.kaggle.com/datasets/andrewmvd/cyberbullying-classification) dataset, which labels tweets according to 6 classes of cyberbullying. In binary text classification we label tweets as either "cyberbullying" or "not cyberbullying," while in multi- class text classification we label tweets as a specific subcategory of cyberbullying. The same four models–Naive Bayes, ANN, CNN, and RNN–were used for both classification tasks in order to draw comparisons. Binary classification performed highest with the ANN model with 0.91 accuracy, while multi-class classification performed highest with the CNN model with 0.87 accuracy. In future applications of our work, we aim to train the best performing models from our results with larger datasets or with similar datasets from other social media sites.
